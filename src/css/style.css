@@ -5,17 +5,27 @@
     background-color: #000;
     color: #fff;
     padding: 0px;
+    font-family: 'Inter', sans-serif;
 }
 
-html{
+html, body{
     margin: 0px 5px 0px 5px;
 
 }
 
+
+        /* HEADER */
+header{
+    height: 650px;
+}
+/* NAV */
 .nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 90px;
+    overflow: hidden;
+    margin: 0px 50px 0px 50px;
 }
 
 .nav img{
@@ -30,4 +40,91 @@ html{
 
 .links a{
     text-decoration: none;
+}
+
+/* SECTION informacao */
+
+
+.informacao{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 6% 0px 0px 0px;
+    /* height: 400px; */
+}
+
+.infoUm {
+    font-size: 30px;
+}
+
+.infoDois{
+    font-size: 25px;
+}
+
+.apresentacao h1{
+ font-size: 50px;
+}
+
+#img{
+    height: 400px;
+    width: 50%;
+}
+
+#img img{
+    width: 100%;
+}
+
+/* SECTION SOBRE */
+
+.sobre{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sobreUm{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.sobre img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.sobreDois{
+    width: 70%;
+}
+
+/* SECTION SKILLS */
+
+.skills h2{
+    text-align: center;
+    font-size: 35px;
+}
+
+.skills div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.skills img{
+    width: 10%;
+}
+
+/* SECTION PROJETOS */
+
+.projetos{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.projetos img{
+ width: 20%;
+ border-radius: 15px;
 }
