@@ -2,28 +2,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
 
 *{
-    background-color: #000;
     color: #fff;
-    padding: 0px;
     font-family: 'Inter', sans-serif;
 }
 
 html, body{
-    margin: 0px 5px 0px 5px;
-
+    padding: 0%;
+    margin: 0px;
+    width: 100%;
+    background-color: #1b1a1a;
+    
 }
 
+body{
+    display: flex;
+    justify-content: center;
+}
+
+header{
+    background-color: #000;
+    height: 690px;
+}
+
+
+
+
+/* .conteiner{
+    max-width: 1300px;
+    margin: 0px auto;
+} */
 
         /* HEADER */
-header{
-    height: 650px;
-}
+
 /* NAV */
+
+.divnav{
+    background-color: #000;
+    position: fixed;
+    width: 100%;
+    border-radius: 0px 0px 10px 10px;
+}
+
 .nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 90px;
+    width: 90%;
     overflow: hidden;
     margin: 0px 50px 0px 50px;
 }
@@ -46,11 +71,12 @@ header{
 
 
 .informacao{
+
     display: flex;
     justify-content: space-around;
-    align-items: center;
-    margin: 6% 0px 0px 0px;
-    /* height: 400px; */
+    align-items:center;
+    height: 680px;
+
 }
 
 .infoUm {
@@ -61,13 +87,18 @@ header{
     font-size: 25px;
 }
 
+.apresentacao{
+    display: flex;
+    flex-direction: column;
+}
+
 .apresentacao h1{
  font-size: 50px;
 }
 
 #img{
-    height: 400px;
     width: 50%;
+
 }
 
 #img img{
@@ -78,8 +109,9 @@ header{
 
 .sobre{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
+    height: 680px;
 }
 
 .sobreUm{
@@ -87,7 +119,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: auto;
+    margin: 0px 0px 0px 40px;
 }
 
 .sobre img{
@@ -98,13 +130,23 @@ header{
 
 .sobreDois{
     width: 70%;
+    margin: 0px 80px 0px 0px;
 }
 
 /* SECTION SKILLS */
 
+.skills{
+    height: 680px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+}
+
 .skills h2{
-    text-align: center;
     font-size: 35px;
+    margin-bottom: 5%;
 }
 
 .skills div{
@@ -114,7 +156,7 @@ header{
 }
 
 .skills img{
-    width: 10%;
+    width: 25%;
 }
 
 /* SECTION PROJETOS */
@@ -122,6 +164,8 @@ header{
 .projetos{
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
+    height: 680px;
 }
 
 .projetos img{
