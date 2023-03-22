@@ -62,7 +62,7 @@ body{
 /* SECTION SOBRE START! */
 
 .sobre{
-    height: 25rem;
+    height: 30rem;
 
     display: flex;
     flex-wrap: wrap; 
@@ -77,7 +77,45 @@ body{
 }
 
 .sobreDois h2{
+    font-size: 2rem;
     margin: 1rem 0rem;
+}
+.sobreDois p{
+    font-size: 1rem;
 }
 
 /* SECTION SOBRE END! */
+
+
+/* SECTION SKILS START! */
+
+.skills{
+    background-color: #000;
+    height: 30rem;
+
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.skills h2{
+    font-size: 2rem;
+    margin: 1rem 0rem;
+}
+
+.skills div{
+    width: 100%;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-between;
+}
+
+@media screen and (max-width: 730px) {
+
+    
+}
+
+/* SECTION SKILS END! */
