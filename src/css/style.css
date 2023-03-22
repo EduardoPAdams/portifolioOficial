@@ -90,6 +90,8 @@ body{
         height: 100vh;
     }
 
+}
+
 /* SECTION SOBRE END! */
 
 
@@ -119,6 +121,10 @@ body{
     align-content: space-between;
 }
 
+.skills img{
+    margin: 1rem;
+}
+
 @media screen and (max-width: 730px) {
 
     .skills{
@@ -128,3 +134,24 @@ body{
 }
 
 /* SECTION SKILS END! */
+
+
+/* SECTION PROJETOS START! */
+
+.projetos{
+    height: 30rem;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.projetos img{
+    width: 300px;
+    height: 300px;
+
+    margin: 1rem;
+}
+
+/* SECTION PROJETOS END! */
