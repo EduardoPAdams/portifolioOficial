@@ -84,6 +84,12 @@ body{
     font-size: 1rem;
 }
 
+@media screen and (max-width: 730px) {
+
+    .sobre{
+        height: 100vh;
+    }
+
 /* SECTION SOBRE END! */
 
 
@@ -115,6 +121,9 @@ body{
 
 @media screen and (max-width: 730px) {
 
+    .skills{
+        height: 100vh;
+    }
     
 }
 
