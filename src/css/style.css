@@ -15,7 +15,6 @@ html, body{
 
 body{
     width: 100%;
-    display: flex;
 }
 
 /* SECTION INFORMAÇÃO START!*/
@@ -31,9 +30,6 @@ body{
     flex-flow: row wrap;
     justify-content: space-around;
     align-items: center;
-    
-    padding: -2rem 0rem 0rem 0rem;
-    
 }
 .img img{
     width: 100%;
@@ -55,13 +51,33 @@ body{
         justify-content: space-evenly;
     }
 
-    .apresentacao{
-        /* width: 100%; */
-    }
-
     .img{
         width: 100%;
     }
 
 }
 /* SECTION INFORMAÇÃO  END!*/
+
+
+/* SECTION SOBRE START! */
+
+.sobre{
+    height: 25rem;
+
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around;
+    align-items: center;
+
+    padding: 3rem;
+}
+
+.sobreUm img{
+    border-radius: 20px;
+}
+
+.sobreDois h2{
+    margin: 1rem 0rem;
+}
+
+/* SECTION SOBRE END! */
