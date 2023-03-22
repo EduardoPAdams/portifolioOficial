@@ -139,12 +139,14 @@ body{
 /* SECTION PROJETOS START! */
 
 .projetos{
-    height: 30rem;
+    height: 100vh;
 
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+
+    padding: 1rem;
 }
 
 .projetos img{
@@ -154,4 +156,85 @@ body{
     margin: 1rem;
 }
 
+@media screen and (max-width: 730px) {
+
+    .projetos{
+        height: 100%;
+    }
+    
+}
+
 /* SECTION PROJETOS END! */
+
+
+/* SECTION CONTATO START! */
+
+.contato{
+    background-color: #000;
+    height: 10rem;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+    padding: 2rem;
+}
+
+.contato h2{
+    font-size: 2rem;
+}
+
+.contato-esquerdo{
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.contato-esquerdo button{
+    background: transparent;
+    font-size: 1rem;
+    
+    display: flex;
+    align-items: center;
+}
+
+.contato-esquerdo button img{
+    margin-right: 10px;
+}
+
+.contato-direito{
+    
+    display: flex;
+    justify-content: space-around;
+}
+
+.contato-direito a{
+    margin: 0rem 2rem;
+
+}
+
+@media screen and (max-width: 730px) {
+
+    .contato{
+        height: 100%;
+    }
+
+    .contato-esquerdo button{
+        font-size: 1.1rem;
+        margin: 0.5rem 0rem;
+    }
+
+    .contato-esquerdo{
+        margin: 1rem 0rem 1.5rem 0rem;
+    }
+
+    .contato-direito{
+        margin: 0rem 0rem 1rem 0rem;
+    }
+    
+
+/* SECTION CONTATO END! */
